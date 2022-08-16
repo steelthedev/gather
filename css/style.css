@@ -244,7 +244,7 @@
     height: 4px;
     margin: auto;
     left: 0  !important;
-    background: #920000;
+    background: #920000 !important;
     transition: all 0.5s;
 }
 }
