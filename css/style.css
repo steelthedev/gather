@@ -248,6 +248,13 @@
     transition: all 0.5s;
     display: block !important;
 }
+
+
+
+.signin{
+    padding:20px;
+}
+
 }
 
 
