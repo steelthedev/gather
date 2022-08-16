@@ -157,6 +157,10 @@
 
 @media screen and (max-width:576px) {
 
+    *{
+        overflow: hidden;
+    }
+
 .navbar{
     padding:10px;
     margin:0px;
