@@ -157,9 +157,7 @@
 
 @media screen and (max-width:576px) {
 
-    *{
-        overflow: hidden;
-    }
+  
 
 .navbar{
     padding:10px;
@@ -225,6 +223,7 @@
     font-weight: 500;
     font-style: normal;
     margin-top: 40px;
+    overflow: hidden;
 }
 
 .md-p{
