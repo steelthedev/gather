@@ -243,8 +243,8 @@
     width: 20%;
     height: 4px;
     margin: auto;
-    left: 0  !important;
-    background: #920000 !important;
+    left: 0;
+    background: #920000;
     transition: all 0.5s;
 }
 }
