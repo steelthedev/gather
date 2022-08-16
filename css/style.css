@@ -165,6 +165,139 @@
 }
 
 
+small a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+.personal-items input{
+    border: 2px solid #920000;
+    border-radius: 10px;
+}
+
+.personal-items .g-btn{
+    color: #ffffff;
+    background: #920000;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 0 4px;
+}
+
+.personal-items .g-btn:hover{
+    color: #ffffff;
+}
+
+/** dashboard **/
+
+
+.sidebar{
+    background: #c4c4c4;
+    height: 100% !important;
+    min-height: 100vh;
+    padding: 20px;
+    color: #920000;
+}
+
+.side-link{
+    color: #920000;
+    font-weight: 500;
+    font-size: 16px;
+    background-image: linear-gradient(
+        to right,
+        #920000,
+        #920000 50%,
+        #000 50%
+      );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    
+    
+}
+
+.side-link:before {
+    content: '';
+    background: #920000;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+
+.side-link:focus::before, .side-link:hover::before{
+    width: 100%;
+}
+
+.side-link:focus, .side-link:hover{
+    color: #920000;
+    background-position: 0;
+ 
+    
+}
+
+
+.side-link{
+    margin: 20px 0;
+}
+
+.profile-picture img{
+    border-radius: 30px;
+}
+
+.p-title h2{
+    color: #920000;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.p-title span{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.p-link{
+    color: #920000;
+    text-decoration: none;
+}
+
+.p-link:hover{
+    color: #920000;
+}
+
+
+.personal-heading{
+    background: #c4c4c4;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+.personal-heading h6, .personal-items h6{
+    margin: 0 auto;
+    color: #000000;
+    font-size: 16px;
+    font-weight:600;
+}
+
+.personal-items{
+    padding: 10px;
+}
+.personal-items h6{
+    margin: 20px 0;
+}
+
+.personal-items p{
+  margin: 17px 0;
+}
+
 @media screen and (max-width:475px) {
   
 
