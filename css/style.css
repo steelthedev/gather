@@ -134,6 +134,13 @@
     color: #ffffff;
 }
 
+.form-container .l-btn{
+    padding: 15px;
+    color: #ffffff;
+    background: #920000;
+    border-radius: 10px;
+}
+
 .form-container input:focus{
     background: #920000;
     color: #ffffff;
