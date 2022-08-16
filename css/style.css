@@ -246,6 +246,7 @@
     left: 0;
     background: #920000;
     transition: all 0.5s;
+    display: block !important;
 }
 }
 
