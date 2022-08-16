@@ -190,7 +190,7 @@
     background: #920000;
     color: #ffffff;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 
 
@@ -199,10 +199,10 @@
 
 
 .hero input{
-    padding: 12px;
+    padding: 12px !important;
     width:300px;
     border-radius:20px ;
-    margin: 0 auto;
+    margin: 0 auto !important;
     border: 2px solid #920000;
 }
 
@@ -212,14 +212,14 @@
     background: #920000;
     color: #ffffff;
     border-radius: 20px;
-    padding: 12px;
+    padding: 12px !important;
     width: 200px;
-    margin: 0 auto;
+    margin: 0 auto !important;
     margin-top: 4px;
 }
 
 .big-h1{
-    font-size: 47px;   
+    font-size: 47px !important;   
     color: #920000;
     font-family: 'montserrat',sans-serif;
     font-weight: 500;
@@ -228,7 +228,7 @@
 }
 
 .md-p{
-    font-size: 15px;
+    font-size: 15px !important;
     color: #000000;
     font-family: 'montserrat',sans-serif;
     font-weight: 400;
