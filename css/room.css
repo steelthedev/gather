@@ -111,6 +111,17 @@
 }
 
 
+
+@media screen and (max-width: 476px) {
+    #icon-wrapper .fa{
+        padding: 10px !important;
+        margin:0;
+        font-size:17px !important;
+
+    }
+}
+
+
 @media screen and (max-width:576px) {
     #icon-wrapper .fa{
         cursor: pointer;
